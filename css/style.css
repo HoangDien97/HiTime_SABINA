@@ -441,6 +441,7 @@ ul.list-featured-product li .product-title:hover {
 
 #footer {
     background: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mid-footer {
@@ -948,6 +949,7 @@ ol li.active {
 #contact-header {
     position: relative;
     margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contact-header h4 {
