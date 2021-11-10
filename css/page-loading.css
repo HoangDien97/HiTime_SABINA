@@ -1,0 +1,18 @@
+body {
+    animation: pageLoading ease 2s;
+}
+
+@keyframes pageLoading {
+    from {
+        opacity: 0;
+        /* transform: scale(1.2); */
+        transform: rotateY(45deg);
+        /* transform: rotateY(45deg); */
+        /* transform: skewX(45deg); */
+    }
+    to {
+        opacity: 1;
+        /* transform: scale(1); */
+        /* transform: rotateY(45deg); */
+    }
+}

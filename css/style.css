@@ -175,6 +175,7 @@ ul#main-menu li.active a {
 #banner a img {
     width: 1430px;
     height: 648px;
+    border-radius: 8px;
 }
 
 
@@ -202,6 +203,7 @@ ul.list-featured-product li {
     flex: 360px 0 1;
     list-style: none;
     margin-right: 26px;
+    position: relative;
 }
 
 ul.list-featured-product {
@@ -224,11 +226,19 @@ ul.list-featured-product li a.product-thumb:hover img {
 }
 
 ul.list-featured-product li a.product-title {
-    display: block;
+    /* display: block;
     color: #000;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 14px; */
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 600;
+    top: 471px;
+    left: 76px;
 }
 
 ul.list-featured-product li .product-title:hover {
@@ -981,5 +991,9 @@ ol li.active {
 
 #contact-body .contact-body-right {
     margin-right: -270px;
+    margin-bottom: 100px;
+}
+
+#contact-f {
     margin-bottom: 100px;
 }
