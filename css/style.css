@@ -38,7 +38,7 @@ input#search::placeholder {
     border: none;
     font-size: 16px;
     color: #d7cbcb;
-    left: 156px;
+    left: 166px;
     top: 8px;
     outline: none;
 }
@@ -109,7 +109,7 @@ ul#main-menu li:first-child a {
 }
 
 #menu ul#main-menu li:hover a,
-ul#main-menu li.active a {
+#menu ul#main-menu li .active a {
     text-decoration: none;
     color: #3bd4ae;
 }
@@ -410,6 +410,10 @@ ul.list-featured-product li .product-title:hover {
     margin-bottom: 20px;
 }
 
+#products-new .title h4 {
+    color: #000;
+}
+
 #products-new .title p {
     margin-top: -26px;
 }
@@ -518,6 +522,10 @@ a.link_f:hover {
 
 
 /* Product-Img-------------  */
+
+#wrapper {
+    font-family: 'Montserrat', sans-serif;
+}
 
 #product-detail {
     margin-bottom: 100px;
@@ -651,10 +659,11 @@ ol.breadcrumb li#breadcrumb-icon::before {
     margin-top: 5px;
 }
 
-#product-detail .product-title h1 {
+#product-detail .product-title h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 32px;
+    /* font-weight: 800; */
+    font-size: 24px;
+    color: #000;
 }
 
 #product-detail .product-rating {
@@ -794,7 +803,8 @@ ol li.active {
 #review .review-title h3 {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    color: #000;
 }
 
 #review #form-review {
@@ -833,10 +843,12 @@ ol li.active {
 
 #product-related #products-new .title h4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    color: #062a30;
-    margin-left: -15px;
+    font-size: 24px;
+    font-weight: 700;
+    /* font-size: 28px; */
+    /* color: #062a30; */
+    /* margin-left: -15px; */
+    color: #000;
 }
 
 #product-related #products-new .title p {
@@ -962,12 +974,12 @@ ol li.active {
     font-family: 'Montserrat', sans-serif;
 }
 
-#contact-header h4 {
+#contact-header h2 {
     position: absolute;
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    left: 160px;
+    left: 241px;
     top: 225px;
     color: #fff;
     text-transform: uppercase;
@@ -984,6 +996,10 @@ ol li.active {
     background-color: #fff5f6;
 }
 
+#contact-body h4 {
+    color: #000;
+}
+
 #contact-body .contact-body-left {
     margin-left: -270px;
     margin-bottom: 100px;
@@ -996,4 +1012,8 @@ ol li.active {
 
 #contact-f {
     margin-bottom: 100px;
+}
+
+#contact-f h4 {
+    color: #000;
 }
